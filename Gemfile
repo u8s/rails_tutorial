@@ -36,6 +36,11 @@ group :test do
   gem "minitest-reporters",       "1.6.0"
   gem "guard",                    "2.18.0"
   gem "guard-minitest",           "2.4.6"
+
+  # minitest実行時、ruby3.4だとエラーが発生するため、下記を追加
+  # warning: mutex_m was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
+  # You can add mutex_m to your Gemfile or gemspec to silence this warning.
+  gem "mutex_m"
 end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
