@@ -7,7 +7,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem "bootstrap-sass",  "3.4.1"
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
-gem "importmap-rails", "1.1.5"
+gem "importmap-rails", "2.2.2"
 gem "turbo-rails",     "1.4.0"
 gem "stimulus-rails",  "1.2.1"
 gem "jbuilder",        "2.11.5"
