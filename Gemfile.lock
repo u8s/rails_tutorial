@@ -148,9 +148,9 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jaro_winkler (1.6.1)
-    jbuilder (2.11.5)
-      actionview (>= 5.0.0)
-      activesupport (>= 5.0.0)
+    jbuilder (2.14.1)
+      actionview (>= 7.0.0)
+      activesupport (>= 7.0.0)
     json (2.13.2)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
@@ -413,7 +413,7 @@ DEPENDENCIES
   guard-minitest (= 2.4.6)
   importmap-rails (= 1.1.5)
   irb
-  jbuilder (= 2.11.5)
+  jbuilder (= 2.14.1)
   minitest (= 5.18.0)
   minitest-reporters (= 1.6.0)
   mutex_m
